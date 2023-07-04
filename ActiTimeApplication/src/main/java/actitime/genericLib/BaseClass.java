@@ -45,11 +45,11 @@ public class BaseClass {
 	    	 driver.findElement(By.id("loginButton")).click();
 
 		}
-	  @AfterMethod
-	  public void logout() {
-		  driver.findElement(By.id("logoutLink")).click();
-		  
-	  }
+//	  @AfterMethod
+//	  public void logout() {
+//		  driver.findElement(By.id("logoutLink")).click();
+//		  
+//	  }
 	  @AfterClass
 	  public void closeBrowser()
 	  {
